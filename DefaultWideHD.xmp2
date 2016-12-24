@@ -20481,12 +20481,12 @@ Click Next to continue or Cancel to exit Setup.</Value>
       <Major>1</Major>
       <Minor>15</Minor>
       <Build>100</Build>
-      <Revision>0</Revision>
+      <Revision>1</Revision>
     </Version>
     <ExtensionDescription />
     <VersionDescription />
     <DevelopmentStatus />
-    <OnlineLocation>https://github.com/MediaPortal/MP1-Skin-DefaultWideHD/raw/master/Release/DFWHD_[Version].mpe1</OnlineLocation>
+    <OnlineLocation>https://github.com/MediaPortal/MP1-Skin-DefaultWideHD/raw/master/Release/DFWHD_[version].mpe1</OnlineLocation>
     <ReleaseDate>2016-12-22T09:37:00.2357105+01:00</ReleaseDate>
     <Tags />
     <Location>.\Release\DFWHD_[Version].mpe1</Location>
