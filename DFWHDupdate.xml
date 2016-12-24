@@ -77,7 +77,7 @@
         <Author>MediaPortal Team</Author>
         <HomePage>https://github.com/MediaPortal/MP1-Skin-DefaultWideHD</HomePage>
         <ForumPage />
-        <UpdateUrl>https://www.dropbox.com/s/t92ws4qjuu8tq2k/Aresupdate.xml?dl=1</UpdateUrl>
+        <UpdateUrl>https://github.com/MediaPortal/MP1-Skin-DefaultWideHD/raw/master/DFWHDupdate.xml</UpdateUrl>
         <Version>
           <Major>1</Major>
           <Minor>15</Minor>
@@ -87,7 +87,7 @@
         <ExtensionDescription />
         <VersionDescription />
         <DevelopmentStatus />
-        <OnlineLocation>https://www.dropbox.com/s/xw7m9abwq9qmnid/Ares 1.15.100.0.mpe1?dl=1</OnlineLocation>
+        <OnlineLocation>https://github.com/MediaPortal/MP1-Skin-DefaultWideHD/raw/master/Release/DFWHD_1.15.100.0.mpe1</OnlineLocation>
         <ReleaseDate>2016-12-22T09:37:00.2357105+01:00</ReleaseDate>
         <Tags />
         <Location>.\Release\DFWHD_[Version].mpe1</Location>
@@ -124,7 +124,7 @@
       <ProjectSettings>
         <FolderGroups />
       </ProjectSettings>
-      <IsSkin>false</IsSkin>
+      <IsSkin>true</IsSkin>
     </PackageClass>
   </Items>
 </ExtensionCollection>
