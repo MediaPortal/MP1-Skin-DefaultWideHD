@@ -20465,6 +20465,25 @@ Click Next to continue or Cancel to exit Setup.</Value>
         <Message>requires Skin version 1.4.0.0 to 1.4.0.0.</Message>
         <Name>Skin</Name>
       </DependencyItem>
+      <DependencyItem>
+        <Type>Installer</Type>
+        <Id />
+        <MinVersion>
+          <Major>1</Major>
+          <Minor>15</Minor>
+          <Build>0</Build>
+          <Revision>0</Revision>
+        </MinVersion>
+        <MaxVersion>
+          <Major>1</Major>
+          <Minor>15</Minor>
+          <Build>0</Build>
+          <Revision>0</Revision>
+        </MaxVersion>
+        <WarnOnly>true</WarnOnly>
+        <Message>requires Installer version 1.15.100.0 to 1.15.100.0.</Message>
+        <Name>Installer</Name>
+      </DependencyItem>
     </Items>
   </Dependencies>
   <PluginDependencies>
@@ -20481,12 +20500,12 @@ Click Next to continue or Cancel to exit Setup.</Value>
       <Major>1</Major>
       <Minor>15</Minor>
       <Build>100</Build>
-      <Revision>1</Revision>
+      <Revision>0</Revision>
     </Version>
     <ExtensionDescription />
     <VersionDescription />
     <DevelopmentStatus />
-    <OnlineLocation>https://github.com/MediaPortal/MP1-Skin-DefaultWideHD/raw/master/Release/DFWHD_[version].mpe1</OnlineLocation>
+    <OnlineLocation>https://github.com/MediaPortal/MP1-Skin-DefaultWideHD/releases/download/[Version]/DFWHD_[Version].mpe1</OnlineLocation>
     <ReleaseDate>2016-12-22T09:37:00.2357105+01:00</ReleaseDate>
     <Tags />
     <Location>.\Release\DFWHD_[Version].mpe1</Location>
