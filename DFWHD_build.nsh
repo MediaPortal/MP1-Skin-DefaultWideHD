@@ -83,7 +83,7 @@
 #---------------------------------------------------------------------------
 # INSTALLER ATTRIBUTES
 #---------------------------------------------------------------------------
-!define properskinpath "${AresPath}"
+!define properskinpath "${DFWHDPath}"
 !define name_output "DFWHD_${ReleaseVersion}"
 !define Ext_filename "DefaultWideHD.xmp2"   
 !define ReleaseVersion "${VER_MAJOR}.${VER_MINOR}.${VER_REVISION}.${VER_BUILD}"
@@ -94,7 +94,7 @@
 !system '"${GIT_ROOT}\mediaportal\MPE\MpeMaker\bin\${BUILD_TYPE}\MpeMaker.exe"  "${properskinpath}\${Ext_filename}" /V=${ReleaseVersion} /B' = 0 
 
 #move the extension installer to Ares skin root folder. 
-!system 'move "${git_InstallScripts}\${name_output}.mpe1" "${properskinpath}\Ares.mpe1"'
+!system 'move "${git_InstallScripts}\${name_output}.mpe1" "${properskinpath}\name_output.mpe1"'
 
 
 
@@ -109,10 +109,10 @@
 #---------------------------------------------------------------------------
 
 
-  #---------------------------------------------------------------------------
-  # FILTER REGISTRATION
-  #               for more information see:           http://nsis.sourceforge.net/Docs/AppendixB.html
-  #---------------------------------------------------------------------------
+#---------------------------------------------------------------------------
+# FILTER REGISTRATION
+#               for more information see:           http://nsis.sourceforge.net/Docs/AppendixB.html
+#---------------------------------------------------------------------------
 
 
 #---------------------------------------------------------------------------
