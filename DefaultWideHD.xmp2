@@ -20289,6 +20289,160 @@
               <ZipFileName>Installer{CopyFile}\{91534c44-94b5-46d0-af67-3f51ba038d23}-zh-CN.xml</ZipFileName>
               <DestinationFilename>%Skin%\DefaultWideHD\Translations\zh-CN.xml</DestinationFilename>
             </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\LatestMediaHandler.SkinSettings.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{384759c2-5cd9-41b4-82ad-35d7baff7abe}-LatestMediaHandler.SkinSettings.xml</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\LatestMediaHandler.SkinSettings.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\mpNZB.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{1d36ae1c-d0f7-4566-8bee-a768a821c40e}-mpNZB.xml</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\mpNZB.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\SkinSpectrumAnalyzer.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{55ac59f5-8c4f-42bd-a48d-40e6c522f756}-SkinSpectrumAnalyzer.xml</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\SkinSpectrumAnalyzer.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\Media\Group.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{5d492dd7-0ee4-422a-afe2-043b1370397f}-Group.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\Media\Group.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\Media\horizontal_bar2.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{a35581db-4cfc-4c1e-8de4-9fbd304027b1}-horizontal_bar2.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\Media\horizontal_bar2.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\Media\miniguide_progress_background.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{e31c0ea6-f293-4bf9-b6c9-e85685dfaaaf}-miniguide_progress_background.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\Media\miniguide_progress_background.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\Media\miniguide_progress_bar.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{9416e49b-1a07-49e6-b66a-00a73da9bd2a}-miniguide_progress_bar.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\Media\miniguide_progress_bar.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\Media\osd_progress_left_tv2.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{01119fb4-70c2-41e0-a727-b82357c202b4}-osd_progress_left_tv2.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\Media\osd_progress_left_tv2.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\Media\osd_progress_mid_orange_tv2.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{13fa3a55-fb74-43c0-917a-51d835726dbf}-osd_progress_mid_orange_tv2.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\Media\osd_progress_mid_orange_tv2.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\Media\osd_progress_mid_tv2.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{78b3f695-c794-4dc6-aea7-9c79f1a1847f}-osd_progress_mid_tv2.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\Media\osd_progress_mid_tv2.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\Media\osd_progress_right2.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{ac120145-f247-4948-bea9-1eff8e47c3de}-osd_progress_right2.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\Media\osd_progress_right2.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\Media\scroll-left-focus.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{6dc0d6a8-1546-441d-b1e7-e01abdf53298}-scroll-left-focus.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\Media\scroll-left-focus.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\Media\scroll-left.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{2186022c-56ce-469d-b04d-eb3b19ada00f}-scroll-left.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\Media\scroll-left.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\Media\scroll-right-focus.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{df6c837b-e7f5-4ea9-ae74-40b7905f2ac1}-scroll-right-focus.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\Media\scroll-right-focus.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\Media\scroll-right.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{8d9316b9-e810-4460-aa7b-8b712904f18c}-scroll-right.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\Media\scroll-right.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\Media\tb_recordNF_red.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{fc41cc42-7a13-4259-827f-0a164f7087e5}-tb_recordNF_red.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\Media\tb_recordNF_red.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\Media\tb_record_red.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{4b1465c6-e765-48d2-ba42-8ce7665ca572}-tb_record_red.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\Media\tb_record_red.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\Media\tv-off.gif</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{8ff37d1b-b316-4d6a-8349-81709079c59b}-tv-off.gif</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\Media\tv-off.gif</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\Media\Logos\resolution\1440p.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{a35b9a67-abf2-4e39-9d73-c8f35536aaba}-1440p.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\Media\Logos\resolution\1440p.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\Media\Logos\resolution\UHD.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{4d8e7af6-8789-43c9-bbd4-c8d1e57ba055}-UHD.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\Media\Logos\resolution\UHD.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\Media\spectrum\Spectrum.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{1285d57a-ee60-433d-bbf6-adfe8508f66c}-Spectrum.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\Media\spectrum\Spectrum.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\Media\spectrum\SpectrumPeak.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{eda98605-83d3-4e46-b03a-9f84c3760bfb}-SpectrumPeak.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\Media\spectrum\SpectrumPeak.png</DestinationFilename>
+            </FileItem>
           </Items>
         </Files>
       </GroupItem>
@@ -20498,15 +20652,15 @@ Click Next to continue or Cancel to exit Setup.</Value>
     <UpdateUrl>https://github.com/MediaPortal/MP1-Skin-DefaultWideHD/raw/master/DFWHDupdate.xml</UpdateUrl>
     <Version>
       <Major>1</Major>
-      <Minor>15</Minor>
+      <Minor>21</Minor>
       <Build>100</Build>
       <Revision>0</Revision>
     </Version>
     <ExtensionDescription />
     <VersionDescription />
     <DevelopmentStatus />
-    <OnlineLocation>https://github.com/MediaPortal/MP1-Skin-DefaultWideHD/releases/download/[Version]/DFWHD_[Version].mpe1</OnlineLocation>
-    <ReleaseDate>2016-12-22T09:37:00.2357105+01:00</ReleaseDate>
+    <OnlineLocation>https://github.com/MediaPortal/MP1-Skin-DefaultWideHD/releases/download/1.15.100.0/DFWHD_[Version].mpe1</OnlineLocation>
+    <ReleaseDate>2019-02-27T22:41:43.1998464+01:00</ReleaseDate>
     <Tags />
     <Location>.\Release\DFWHD_[Version].mpe1</Location>
     <Params>
@@ -40821,6 +40975,160 @@ Click Next to continue or Cancel to exit Setup.</Value>
         <LocalFileName>DefaultWideHD\Translations\zh-CN.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{91534c44-94b5-46d0-af67-3f51ba038d23}-zh-CN.xml</ZipFileName>
         <DestinationFilename>%Skin%\DefaultWideHD\Translations\zh-CN.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\LatestMediaHandler.SkinSettings.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{384759c2-5cd9-41b4-82ad-35d7baff7abe}-LatestMediaHandler.SkinSettings.xml</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\LatestMediaHandler.SkinSettings.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\mpNZB.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{1d36ae1c-d0f7-4566-8bee-a768a821c40e}-mpNZB.xml</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\mpNZB.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\SkinSpectrumAnalyzer.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{55ac59f5-8c4f-42bd-a48d-40e6c522f756}-SkinSpectrumAnalyzer.xml</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\SkinSpectrumAnalyzer.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\Media\Group.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{5d492dd7-0ee4-422a-afe2-043b1370397f}-Group.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\Media\Group.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\Media\horizontal_bar2.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{a35581db-4cfc-4c1e-8de4-9fbd304027b1}-horizontal_bar2.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\Media\horizontal_bar2.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\Media\miniguide_progress_background.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{e31c0ea6-f293-4bf9-b6c9-e85685dfaaaf}-miniguide_progress_background.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\Media\miniguide_progress_background.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\Media\miniguide_progress_bar.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{9416e49b-1a07-49e6-b66a-00a73da9bd2a}-miniguide_progress_bar.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\Media\miniguide_progress_bar.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\Media\osd_progress_left_tv2.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{01119fb4-70c2-41e0-a727-b82357c202b4}-osd_progress_left_tv2.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\Media\osd_progress_left_tv2.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\Media\osd_progress_mid_orange_tv2.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{13fa3a55-fb74-43c0-917a-51d835726dbf}-osd_progress_mid_orange_tv2.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\Media\osd_progress_mid_orange_tv2.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\Media\osd_progress_mid_tv2.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{78b3f695-c794-4dc6-aea7-9c79f1a1847f}-osd_progress_mid_tv2.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\Media\osd_progress_mid_tv2.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\Media\osd_progress_right2.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{ac120145-f247-4948-bea9-1eff8e47c3de}-osd_progress_right2.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\Media\osd_progress_right2.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\Media\scroll-left-focus.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{6dc0d6a8-1546-441d-b1e7-e01abdf53298}-scroll-left-focus.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\Media\scroll-left-focus.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\Media\scroll-left.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{2186022c-56ce-469d-b04d-eb3b19ada00f}-scroll-left.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\Media\scroll-left.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\Media\scroll-right-focus.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{df6c837b-e7f5-4ea9-ae74-40b7905f2ac1}-scroll-right-focus.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\Media\scroll-right-focus.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\Media\scroll-right.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{8d9316b9-e810-4460-aa7b-8b712904f18c}-scroll-right.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\Media\scroll-right.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\Media\tb_recordNF_red.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{fc41cc42-7a13-4259-827f-0a164f7087e5}-tb_recordNF_red.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\Media\tb_recordNF_red.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\Media\tb_record_red.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{4b1465c6-e765-48d2-ba42-8ce7665ca572}-tb_record_red.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\Media\tb_record_red.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\Media\tv-off.gif</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{8ff37d1b-b316-4d6a-8349-81709079c59b}-tv-off.gif</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\Media\tv-off.gif</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\Media\Logos\resolution\1440p.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{a35b9a67-abf2-4e39-9d73-c8f35536aaba}-1440p.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\Media\Logos\resolution\1440p.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\Media\Logos\resolution\UHD.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{4d8e7af6-8789-43c9-bbd4-c8d1e57ba055}-UHD.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\Media\Logos\resolution\UHD.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\Media\spectrum\Spectrum.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{1285d57a-ee60-433d-bbf6-adfe8508f66c}-Spectrum.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\Media\spectrum\Spectrum.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\Media\spectrum\SpectrumPeak.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{eda98605-83d3-4e46-b03a-9f84c3760bfb}-SpectrumPeak.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\Media\spectrum\SpectrumPeak.png</DestinationFilename>
       </FileItem>
       <FileItem InstallType="CopyFont" SystemFile="false" Modified="false">
         <Param1 />

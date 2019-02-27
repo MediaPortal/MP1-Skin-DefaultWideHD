@@ -93,10 +93,14 @@
 
 !system '"${GIT_ROOT}\mediaportal\MPE\MpeMaker\bin\${BUILD_TYPE}\MpeMaker.exe"  "${properskinpath}\${Ext_filename}" /V=${ReleaseVersion} /B' = 0 
 
-#move the extension installer to Ares skin root folder. 
-!system 'move "${git_InstallScripts}\${name_output}.mpe1" "${properskinpath}\name_output.mpe1"'
 
+#move the extension installer to skin root folder. 
+!system 'move "${git_InstallScripts}\Release\${name_output}.mpe1" "${properskinpath}\DFWHD.mpe1"'
 
+!undef name_output
+!undef Ext_filename 
+!undef ReleaseVersion
+!undef properskinpath
 
 #---------------------------------------------------------------------------
 # USEFUL MACROS
