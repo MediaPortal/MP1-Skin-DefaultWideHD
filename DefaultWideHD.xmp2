@@ -20443,6 +20443,55 @@
               <ZipFileName>Installer{CopyFile}\{eda98605-83d3-4e46-b03a-9f84c3760bfb}-SpectrumPeak.png</ZipFileName>
               <DestinationFilename>%Skin%\DefaultWideHD\Media\spectrum\SpectrumPeak.png</DestinationFilename>
             </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\Media\Logos\audio\dtsx.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{918a6225-8119-40a4-a05c-a6cd2b57d221}-dtsx.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\Media\Logos\audio\dtsx.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\Media\Logos\audio\eac3atmos.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{cdc1ce8f-b100-40d1-99c0-2a79d07d733e}-eac3atmos.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\Media\Logos\audio\eac3atmos.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\Media\Logos\audio\truehdatmos.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{3a865759-066a-4497-aed9-8ee541153d96}-truehdatmos.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\Media\Logos\audio\truehdatmos.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\Media\Logos\resolution\4K.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{4cef81a2-7c6e-4ec6-903a-d3cd9937352d}-4K.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\Media\Logos\resolution\4K.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\Media\Logos\video\4K.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{9ac1b341-d0e1-4ab3-9dd6-aeacd9b57b42}-4K.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\Media\Logos\video\4K.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\Media\Logos\video\hevc2.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{966505f2-b7ff-42c2-a13d-0bbd6b314337}-hevc2.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\Media\Logos\video\hevc2.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\MPDefaultFonts\NotoSans-Regular.ttf</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{39271e23-b202-44d7-a04b-549c15181133}-NotoSans-Regular.ttf</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\MPDefaultFonts\NotoSans-Regular.ttf</DestinationFilename>
+            </FileItem>
           </Items>
         </Files>
       </GroupItem>
@@ -20646,21 +20695,21 @@ Click Next to continue or Cancel to exit Setup.</Value>
   <GeneralInfo>
     <Name>DefaultWideHD</Name>
     <Id>922354ea-14e1-42dd-92af-496e2ac999db</Id>
-    <Author>MediaPortal Team</Author>
+    <Author>MediaPortal Team / catavolt</Author>
     <HomePage>https://github.com/MediaPortal/MP1-Skin-DefaultWideHD</HomePage>
     <ForumPage />
     <UpdateUrl>https://github.com/MediaPortal/MP1-Skin-DefaultWideHD/raw/master/DFWHDupdate.xml</UpdateUrl>
     <Version>
       <Major>1</Major>
-      <Minor>21</Minor>
-      <Build>100</Build>
+      <Minor>22</Minor>
+      <Build>0</Build>
       <Revision>0</Revision>
     </Version>
     <ExtensionDescription />
     <VersionDescription />
-    <DevelopmentStatus />
-    <OnlineLocation>https://github.com/MediaPortal/MP1-Skin-DefaultWideHD/releases/download/1.15.100.0/DFWHD_[Version].mpe1</OnlineLocation>
-    <ReleaseDate>2019-02-27T22:41:43.1998464+01:00</ReleaseDate>
+    <DevelopmentStatus>Stable</DevelopmentStatus>
+    <OnlineLocation>https://github.com/MediaPortal/MP1-Skin-DefaultWideHD/releases/download/[Version]/DFWHD_[Version].mpe1</OnlineLocation>
+    <ReleaseDate>2019-04-28T11:27:06.2639677+02:00</ReleaseDate>
     <Tags />
     <Location>.\Release\DFWHD_[Version].mpe1</Location>
     <Params>
@@ -41129,6 +41178,55 @@ Click Next to continue or Cancel to exit Setup.</Value>
         <LocalFileName>DefaultWideHD\Media\spectrum\SpectrumPeak.png</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{eda98605-83d3-4e46-b03a-9f84c3760bfb}-SpectrumPeak.png</ZipFileName>
         <DestinationFilename>%Skin%\DefaultWideHD\Media\spectrum\SpectrumPeak.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\Media\Logos\audio\dtsx.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{918a6225-8119-40a4-a05c-a6cd2b57d221}-dtsx.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\Media\Logos\audio\dtsx.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\Media\Logos\audio\eac3atmos.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{cdc1ce8f-b100-40d1-99c0-2a79d07d733e}-eac3atmos.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\Media\Logos\audio\eac3atmos.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\Media\Logos\audio\truehdatmos.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{3a865759-066a-4497-aed9-8ee541153d96}-truehdatmos.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\Media\Logos\audio\truehdatmos.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\Media\Logos\resolution\4K.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{4cef81a2-7c6e-4ec6-903a-d3cd9937352d}-4K.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\Media\Logos\resolution\4K.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\Media\Logos\video\4K.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{9ac1b341-d0e1-4ab3-9dd6-aeacd9b57b42}-4K.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\Media\Logos\video\4K.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\Media\Logos\video\hevc2.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{966505f2-b7ff-42c2-a13d-0bbd6b314337}-hevc2.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\Media\Logos\video\hevc2.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\MPDefaultFonts\NotoSans-Regular.ttf</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{39271e23-b202-44d7-a04b-549c15181133}-NotoSans-Regular.ttf</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\MPDefaultFonts\NotoSans-Regular.ttf</DestinationFilename>
       </FileItem>
       <FileItem InstallType="CopyFont" SystemFile="false" Modified="false">
         <Param1 />
