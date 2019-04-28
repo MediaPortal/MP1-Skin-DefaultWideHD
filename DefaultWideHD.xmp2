@@ -20668,25 +20668,6 @@ Click Next to continue or Cancel to exit Setup.</Value>
         <Message>requires Skin version 1.4.0.0 to 1.4.0.0.</Message>
         <Name>Skin</Name>
       </DependencyItem>
-      <DependencyItem>
-        <Type>Installer</Type>
-        <Id />
-        <MinVersion>
-          <Major>1</Major>
-          <Minor>15</Minor>
-          <Build>0</Build>
-          <Revision>0</Revision>
-        </MinVersion>
-        <MaxVersion>
-          <Major>1</Major>
-          <Minor>15</Minor>
-          <Build>0</Build>
-          <Revision>0</Revision>
-        </MaxVersion>
-        <WarnOnly>true</WarnOnly>
-        <Message>requires Installer version 1.15.100.0 to 1.15.100.0.</Message>
-        <Name>Installer</Name>
-      </DependencyItem>
     </Items>
   </Dependencies>
   <PluginDependencies>
