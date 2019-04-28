@@ -2071,27 +2071,6 @@
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
               <Param1 />
               <UpdateOption>AlwaysOverwrite</UpdateOption>
-              <LocalFileName>DefaultWideHD\SkinSettings.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{3d886955-c888-41ae-9c87-01b1a47e7501}-SkinSettings.xml</ZipFileName>
-              <DestinationFilename>%Skin%\DefaultWideHD\SkinSettings.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>AlwaysOverwrite</UpdateOption>
-              <LocalFileName>DefaultWideHD\SkinSettingsCatavolt.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{e08ea96c-2362-431e-850f-dc1e0d4d8826}-SkinSettingsCatavolt.xml</ZipFileName>
-              <DestinationFilename>%Skin%\DefaultWideHD\SkinSettingsCatavolt.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>AlwaysOverwrite</UpdateOption>
-              <LocalFileName>DefaultWideHD\SkinSettingsSTANDARD.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{f3939b82-c6ee-40d3-b4e9-261d360db4ae}-SkinSettingsSTANDARD.xml</ZipFileName>
-              <DestinationFilename>%Skin%\DefaultWideHD\SkinSettingsSTANDARD.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>AlwaysOverwrite</UpdateOption>
               <LocalFileName>DefaultWideHD\SkyGoDe.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{57033526-96ca-4df6-a0c3-f5c2291c3b37}-SkyGoDe.xml</ZipFileName>
               <DestinationFilename>%Skin%\DefaultWideHD\SkyGoDe.xml</DestinationFilename>
@@ -20512,6 +20491,37 @@
           </Items>
         </Files>
       </GroupItem>
+      <GroupItem Name="SkinSetting">
+        <ParentGroup>Default</ParentGroup>
+        <DisplayName>SkinSetting</DisplayName>
+        <DefaulChecked>true</DefaulChecked>
+        <Description>SkinSetting</Description>
+        <Files>
+          <Items>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>NeverOverwrite</UpdateOption>
+              <LocalFileName>SkinSetting\SkinSettings.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{52cd6fb6-aa04-4b87-817e-59308d523cfb}-SkinSettings.xml</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\SkinSettings.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>NeverOverwrite</UpdateOption>
+              <LocalFileName>SkinSetting\SkinSettingsCatavolt.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{5b015344-3153-4980-b563-315671a3f391}-SkinSettingsCatavolt.xml</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\SkinSettingsCatavolt.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>NeverOverwrite</UpdateOption>
+              <LocalFileName>SkinSetting\SkinSettingsSTANDARD.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{bcdab89e-1ffa-4e61-999c-72386f64f53c}-SkinSettingsSTANDARD.xml</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\SkinSettingsSTANDARD.xml</DestinationFilename>
+            </FileItem>
+          </Items>
+        </Files>
+      </GroupItem>
     </Items>
   </Groups>
   <Sections>
@@ -20590,6 +20600,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
           <string>Backup_exe</string>
           <string>Default</string>
           <string>Font_setup</string>
+          <string>SkinSetting</string>
         </IncludedGroups>
         <PanelName>Install Section</PanelName>
         <WizardButtonsEnum>Next</WizardButtonsEnum>
@@ -22784,27 +22795,6 @@ Click Next to continue or Cancel to exit Setup.</Value>
         <LocalFileName>DefaultWideHD\SkinInfo.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{b04da1e7-23a2-4390-8b37-682ad788cf9d}-SkinInfo.xml</ZipFileName>
         <DestinationFilename>%Skin%\DefaultWideHD\SkinInfo.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>AlwaysOverwrite</UpdateOption>
-        <LocalFileName>DefaultWideHD\SkinSettings.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{3d886955-c888-41ae-9c87-01b1a47e7501}-SkinSettings.xml</ZipFileName>
-        <DestinationFilename>%Skin%\DefaultWideHD\SkinSettings.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>AlwaysOverwrite</UpdateOption>
-        <LocalFileName>DefaultWideHD\SkinSettingsCatavolt.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{e08ea96c-2362-431e-850f-dc1e0d4d8826}-SkinSettingsCatavolt.xml</ZipFileName>
-        <DestinationFilename>%Skin%\DefaultWideHD\SkinSettingsCatavolt.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>AlwaysOverwrite</UpdateOption>
-        <LocalFileName>DefaultWideHD\SkinSettingsSTANDARD.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{f3939b82-c6ee-40d3-b4e9-261d360db4ae}-SkinSettingsSTANDARD.xml</ZipFileName>
-        <DestinationFilename>%Skin%\DefaultWideHD\SkinSettingsSTANDARD.xml</DestinationFilename>
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
@@ -41216,6 +41206,27 @@ Click Next to continue or Cancel to exit Setup.</Value>
         <ZipFileName>Installer{Font}\{4af49acb-0a04-41ea-b4c3-e36adaea3df6}-NotoSans-Regular.ttf</ZipFileName>
         <DestinationFilename>%Fonts%\NotoSans-Regular.ttf</DestinationFilename>
       </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>NeverOverwrite</UpdateOption>
+        <LocalFileName>SkinSetting\SkinSettings.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{52cd6fb6-aa04-4b87-817e-59308d523cfb}-SkinSettings.xml</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\SkinSettings.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>NeverOverwrite</UpdateOption>
+        <LocalFileName>SkinSetting\SkinSettingsCatavolt.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{5b015344-3153-4980-b563-315671a3f391}-SkinSettingsCatavolt.xml</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\SkinSettingsCatavolt.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>NeverOverwrite</UpdateOption>
+        <LocalFileName>SkinSetting\SkinSettingsSTANDARD.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{bcdab89e-1ffa-4e61-999c-72386f64f53c}-SkinSettingsSTANDARD.xml</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\SkinSettingsSTANDARD.xml</DestinationFilename>
+      </FileItem>
     </Items>
   </UniqueFileList>
   <ProjectSettings>
@@ -41238,6 +41249,16 @@ Click Next to continue or Cancel to exit Setup.</Value>
         <DestinationFilename>%Skin%\DefaultWideHD\</DestinationFilename>
         <Folder>DefaultWideHD</Folder>
         <Group>Default</Group>
+        <Recursive>true</Recursive>
+      </FolderGroup>
+      <FolderGroup InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>NeverOverwrite</UpdateOption>
+        <LocalFileName />
+        <ZipFileName>Installer{CopyFile}\{d8a044ef-89b7-4782-8c21-54c7d4648d86}-</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\</DestinationFilename>
+        <Folder>SkinSetting\</Folder>
+        <Group>SkinSetting</Group>
         <Recursive>true</Recursive>
       </FolderGroup>
     </FolderGroups>
