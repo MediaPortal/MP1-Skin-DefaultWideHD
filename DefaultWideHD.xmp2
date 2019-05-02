@@ -20594,6 +20594,84 @@ Click Next to continue or Cancel to exit Setup.</Value>
               </Params>
               <ExecuteLocation>AfterPanelShow</ExecuteLocation>
             </ActionItem>
+            <ActionItem Name="Script" ActionType="Script" ConditionGroup="">
+              <Params>
+                <Items>
+                  <SectionParam Name="Script">
+                    <Value>//css_reference "MpeCore.dll";
+
+using MpeCore.Classes;
+using MpeCore;
+
+public class Script
+{
+    public static void Main(PackageClass packageClass, ActionItem actionItem)
+    {
+        return;
+    }
+}
+</Value>
+                    <ValueType>Script</ValueType>
+                    <Description />
+                  </SectionParam>
+                  <SectionParam Name="Uninstall Script">
+                    <Value>//css_reference "MpeCore.dll";
+
+using MpeCore.Classes;
+using MpeCore;
+using System.IO;
+using System;
+using System.Collections.Generic;
+
+// https://stackoverflow.com/questions/1835578/c-sharp-copying-multiple-files-with-wildcards-and-keeping-file-names
+public class Script
+{
+ static String SkinName = "DefaultWideHD";
+ static String SourceFilePath = Path.Combine(MpeInstaller.TransformInRealPath("%Skin%"), SkinName);
+ static String BackupPath = Path.Combine(MpeInstaller.TransformInRealPath("%Config%"), "BackupSkin", SkinName);
+
+    public static void Main(PackageClass packageClass, UnInstallItem item)
+  {
+    DirectoryInfo src = new DirectoryInfo(SourceFilePath);
+    DirectoryInfo dst = new DirectoryInfo(BackupPath);
+
+    /*
+     * FilesToBackup.txt
+     *     SkinSettings.xml
+     *     
+     */
+    CopyFiles(src, dst, true);
+    return;
+
+  }
+
+  static void CopyFiles(DirectoryInfo source, DirectoryInfo destination, bool overwrite)
+  {
+    List&lt;FileInfo&gt; files = new List&lt;FileInfo&gt;();
+
+    string[] fileNames = File.ReadAllLines(Path.Combine(SourceFilePath, "FilesToBackup.txt"));
+
+    foreach (string f in fileNames)
+    {
+      files.AddRange(source.GetFiles(f));
+    }
+
+    if (!destination.Exists)
+      destination.Create();
+
+    foreach (FileInfo file in files)
+    {
+      file.CopyTo(destination.FullName + @"\" + file.Name, overwrite);
+    }
+  }
+}</Value>
+                    <ValueType>Script</ValueType>
+                    <Description />
+                  </SectionParam>
+                </Items>
+              </Params>
+              <ExecuteLocation>BeforPanelShow</ExecuteLocation>
+            </ActionItem>
           </Items>
         </Actions>
         <IncludedGroups>
