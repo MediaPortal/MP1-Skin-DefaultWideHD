@@ -20471,6 +20471,13 @@
               <ZipFileName>Installer{CopyFile}\{39271e23-b202-44d7-a04b-549c15181133}-NotoSans-Regular.ttf</ZipFileName>
               <DestinationFilename>%Skin%\DefaultWideHD\MPDefaultFonts\NotoSans-Regular.ttf</DestinationFilename>
             </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>DefaultWideHD\FilesToBackup.txt</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{852b6554-5137-4684-8459-18f412676e5d}-FilesToBackup.txt</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWideHD\FilesToBackup.txt</DestinationFilename>
+            </FileItem>
           </Items>
         </Files>
       </GroupItem>
@@ -20779,7 +20786,7 @@ public class Script
     <VersionDescription />
     <DevelopmentStatus>Stable</DevelopmentStatus>
     <OnlineLocation>https://github.com/MediaPortal/MP1-Skin-DefaultWideHD/releases/download/[Version]/DFWHD_[Version].mpe1</OnlineLocation>
-    <ReleaseDate>2019-04-28T11:27:06.2639677+02:00</ReleaseDate>
+    <ReleaseDate>2019-05-04T19:50:31.314639+02:00</ReleaseDate>
     <Tags />
     <Location>.\Release\DFWHD_[Version].mpe1</Location>
     <Params>
@@ -41276,6 +41283,13 @@ public class Script
         <LocalFileName>DefaultWideHD\MPDefaultFonts\NotoSans-Regular.ttf</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{39271e23-b202-44d7-a04b-549c15181133}-NotoSans-Regular.ttf</ZipFileName>
         <DestinationFilename>%Skin%\DefaultWideHD\MPDefaultFonts\NotoSans-Regular.ttf</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>DefaultWideHD\FilesToBackup.txt</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{852b6554-5137-4684-8459-18f412676e5d}-FilesToBackup.txt</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWideHD\FilesToBackup.txt</DestinationFilename>
       </FileItem>
       <FileItem InstallType="CopyFont" SystemFile="false" Modified="false">
         <Param1 />
